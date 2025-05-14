@@ -35,6 +35,11 @@
 # #### 🧵 **Strings**
 
 # 16. **Reverse a String**
+def reverse_str(s):
+    return s[::-1]
+
+s = 'name'
+print(reverse_str(s))
 # 17. **Check if Two Strings are Isomorphic**
 # 18. **Character Frequency in a String**
 # 19. **Remove Vowels from a String**
